@@ -49,7 +49,7 @@ def main():
                 columns_to_keep_presumptive = ['Form Type', 'Reporting Date', 'Date Of Onset', 'Patient Name', 
                                                'Contact Number', 'Gender', 'Age', 'Patient Address', 'District', 
                                                'Opd Ipd', 'Provisional Diagnosis', 'Test Performed', 'Pathogen Name',
-                                               'Pathogen Subtype', 'Facility Name Lform','Latitude','Longitude']
+                                               'Pathogen Subtype', 'Facility Name Pform','Latitude','Longitude']
                 data = data[columns_to_keep_presumptive]
 
             # Check file name for 'Laboratory'
